@@ -6,7 +6,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "terrafrom-key" {
+variable "key_name" {
   description = "SSH key pair name in AWS"
   type        = string
 }
